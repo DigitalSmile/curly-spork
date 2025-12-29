@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/curly-spork.iml" filepath="$PROJECT_DIR$/.idea/curly-spork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gradle-jvm-crash.iml" filepath="$PROJECT_DIR$/gradle-jvm-crash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-jvm-crash.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-jvm-crash.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-jvm-crash.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-jvm-crash.test.iml" />
+    </modules>
+  </component>
+</project>

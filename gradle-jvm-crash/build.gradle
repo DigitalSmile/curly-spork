@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.digitalsmile'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    targetCompatibility = "25"
+    sourceCompatibility = "25"
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+    jvmArgs ('--enable-native-access=ALL-UNNAMED')
+}
